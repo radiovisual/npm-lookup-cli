@@ -1,7 +1,7 @@
 {
   "name": "npm-lookup-cli",
-  "version": "1.0.1",
-  "description": "Lookup npmjs.org packages from the command line.",
+  "version": "1.0.2",
+  "description": "Lookup npm pacakges on npmjs.org from the command line.",
   "license": "MIT",
   "repository": "radiovisual/npm-lookup-cli",
   "author": {
