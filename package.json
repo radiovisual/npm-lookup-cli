@@ -1,0 +1,49 @@
+{
+  "name": "npm-lookup-cli",
+  "version": "1.0.0",
+  "description": "Lookup npmjs.org packages from the command line.",
+  "license": "MIT",
+  "repository": "radiovisual/npm-lookup-cli",
+  "author": {
+    "name": "Michael Wuergler",
+    "email": "wuergler@gmail.com",
+    "url": "numetriclabs.com"
+  },
+  "bin": {
+    "npmjs": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "files": [
+    "cli.js",
+    "index.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "lookup",
+    "find",
+    "search",
+    "packages",
+    "modules",
+    "projects",
+    "on",
+    "npmjs",
+    "npmjs.org",
+    "npm"
+  ],
+  "dependencies": {
+    "execa": "^0.4.0",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
