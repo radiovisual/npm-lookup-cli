@@ -2,6 +2,7 @@
 
 > Lookup npm pacakges on npmjs.org from the command line.
 
+Simply supply the package name on the command line, and npm-lookup-cli will launch your default browser to the package profile you specify on [npmjs.org](https://www.npmjs.com/).
 
 ## Install
 
@@ -25,7 +26,7 @@ $ npmjs --help
 
 ## Example
 
-Look up the [`object-assign`](https://www.npmjs.com/package/object-assign) package on npmjs.org from the command line:
+Launch the [`object-assign`](https://www.npmjs.com/package/object-assign) package on npmjs.org from the command line:
 
 ```
 $ npmjs object-assign
